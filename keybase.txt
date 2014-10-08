@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/asmeurer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://asmeurer.github.io
+  * I am asmeurer (https://keybase.io/asmeurer) on keybase.
+  * I have a public key with fingerprint 17E5 B56A 4092 FAC0 0185  77B0 BD45 5300 3E5F 6202
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "17e5b56a4092fac0018577b0bd4553003e5f6202",
+            "host": "keybase.io",
+            "key_id": "BD4553003E5F6202",
+            "uid": "abf4bf75f5eae78f41322bf6b1e0b200",
+            "username": "asmeurer"
+        },
+        "merkle_root": {
+            "ctime": 1412726494,
+            "hash": "5ee71a388757ea7bb12edf896058f15a9e585212209c081732546ffeffdb6b7a5d2736f864a69182a15211004b2076560a5b01a14b6e6272b499f91c68f7bb7a",
+            "seqno": 74212
+        },
+        "service": {
+            "hostname": "asmeurer.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412726613,
+    "expire_in": 157680000,
+    "prev": "9ad819bc61802bba893cf34feb89d8ac7c431680e2bb8d5f0b90488c5c71222e",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFdkn9QFGUYx4/jx4CKQs40mZi4USZDtO/evvvjmnSQRNJCEAgclGvf3XePhePu
+2D0gRCSzUaCQFAbHgSEVm5yAILVxctBkgKGhCFHCOYV+DeNgMoiNZB1S7RJN2f61
+u8/n+X6f7/O+74f6m8x+2+7nfbnilwe031e3kSmNLk8vJZBLKiGspYToULDTY7w5
+hXxMWIk8XIIEDccqrkinS8KxuVrkAhNDFGFVU1xOnSJj2ViKKIsxcKNZVpx2rLpV
+xdAiAIshgoxAkzwlCyJJAg6yLCKRRENoIUkLhjJDkZQumePSPI+4EvOaNkXS/258
+eYHfBBMW+ML5goBkGskslCEWMMvJNLBQFJIZBDCJKJI0QA2rC5EELR8Xqlg15s3H
+ap4D21SXaz606FEMBNCAYimG5ml9IkHL0ZsgxiwQLBzHQhYLLEKAwpLM8QwJORlA
+gceQgxSgKJIXSQ6wFgrSjCxjWZYQg1gBShRrYWSOoQWGBxwlAJ0GJEnr87EMZEgB
+IhIIgEYMZnRzRPO8zAOR4WTdjBX0CBoucLoIK0vrNmXGp1qkiNgY29ja/8LF2hVP
+TiH6e4Nu1eVxiS6HXs/xeNya1YjuKXFj4qyVKMbItqBlQ4pT0o/uv2cLdPTRtTDA
+EkPgN92Kim2KQUCW4Uj9MYxwkW7CCxIHeCQygCMphASOt4iyhZYx4niJE0RWpC1A
+78F6kZOgTCKepDlOhCKrb5DC/4aF+pyCXZfUFLtT8OjJiLJKc0SAyc9sCgo0G5fX
+tCgk7J8b3fvhsj8dFU/2nT8FBp6f7hjxq0+1R9yoTihZ0tY5NZJ8YBMzZ9rS3o7r
+GidNFQ33rr8+11V7qqw+y3I6RR6P6AU7zXtalwZntFWkTKwduHPnY+JCLQzvOZcW
+nbXSvj1KG5jJjFSsTQ+HuaPnHxu4mbSmvbLzu6Gnhw9MdIcxzfceZMdPT/WH+/U8
+FG72dN+95hvDe3HyhoN7Krvmdns3aCODgUPvhkxeTkzzEZde/OPWC4Ptl2fLu9TZ
+sR2BU7uG1nxve2vricPB0vgz6wN88UFPNZ20u2dXHd+Rmvj7gdU32ArRm3w3dFw6
+BJZM0P05Xy/PrEmpDjJJAmWKXulr0RrHkp+VGyvMbYmPd6StBR8Mb7P1xdv70zNb
+rNFcy9Cxa++0d3y7eLKmv/Ni87qUhDO7ryw6XrVx0J2QnWgqWFx9e6kIlh87E/cZ
++8mnvt+ivNwJ9WRxgReu8l1Jyo+/b3ZpcGTu+pF1c+u9o5vLM3pXFwwOvuLo8v+h
+IKmpMD4uo6F2dDb3akZRUnrWOXdC4YpdR6OSqKaui09IonY1zldy5MLWLa9FlWfW
+3Hr7C+x9KbR138+1xd4ZS/lHZ0HxcxpREL1v++lDpfafOrmqvrpvvP5VO8NrW9/7
+deZwiC/o87DuV6eb+dy9Ex0hI2/UHwyIniz9cX9MaorDcakhZXNz4Nxoa/ZYcN2y
+/f1/AQ==
+=9Zhi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/asmeurer
+
+==================================================================
