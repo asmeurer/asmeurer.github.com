@@ -16,7 +16,7 @@
 //
 // ("no monies exchanged" in Copyright clause removed 11/2001)
 //
-var noadsver = "$Id: no-ads.pac,v 6.3 2017/09/28 17:08:39 loverso Exp loverso $";
+var noadsver = "$Id: no-ads.pac,v 6.10 2021/03/26 13:43:28 loverso Exp loverso $";
 
 // ****
 // **** If you do not use a proxy to access the Internet, then the following
@@ -522,7 +522,7 @@ var re_banner2 = /[/](?!no-ads)([^/]*?([^0-9/][^-/]))?(\b|[_])(ad[s]?)(\b|[_0-9]
 // ^(www\.)?(ad(?!(mission|visor|alur|iumx|ult|obe.*|min|sl|d|olly.*))|tology|pop|click(?!redblue)|cash|[^.]*banner|[^.]*adserv|.+\.ads?\.)
 //var re_adhost = /.../i;
 
-var re_adhost = /\b((new)?ad(?!(venture|vantage|am|mission|visor|alur|iumx|ult|vizia|obe|min|sl|d|olly|vance))|ads\b|adserv|pop(?!ular|corn|e)|click(?!redblue|andbuy|.reference)|cash(?!back)|banner|bans)/i;
+var re_adhost = /\b((new)?ad(?!(venture|vantage|am|mission|visor|alur|iumx|ult|vizia|obe|min|sl|d|olly|vance))|ads\b|adserv|pop(?!ular|corn|e)|click(?!orlando|redblue|andbuy|.reference)|cash(?!back|star|edge)|banner|bans)/i;
 
 // http://www.afcyhf.com/image-1742473-10472361
 // http://www.tkqlhce.com/image-1742473-10510557
@@ -541,7 +541,7 @@ var re_crud = /www\.\w+\.com\/image-\d+-\d+$/;
 //	popup.foo.bar
 
 // matched against hostname
-var re_whitelist_domains = /(^|\.)(adorama\.com|adafruit\..*|advogato\.org|adirondack\..*|kintera\.org|sprintpcs\.com|adp\.com|lego\.com|dell\.com|mozdev\.org|mozilla\.org|fidelity\.com|tirerack\.com|titantv\.com|lala\.com|sprint\.com|nextel\.com|verizon\.com|vupload\.facebook\.com|rit\.edu|mididb\.com|sony\.tv|market\.android\.com|weeklyad\.staples\.com|(code|plus|www|mail|apis|drive|docs)\.google\.com|googleadservices\.com|gmail\.com|gstatic\.com|thetvdb\.com|bits\te.wikimedia\.org|css\.slickdealscdn\.com|newegg\.com|androiddrawer\.com|addons\.cdn\.mozilla\.net|wsj\.com|massdrop\.com|cloudfront\.net|ad.*\.rackcdn\.com|bankofamerica\.com\|office\.com|smarttiles\.click|solaredge\.com|smartthings\.com)$/i;
+var re_whitelist_domains = /(^|\.)(adfdevices\.com|adorama\.com|adafruit\..*|advogato\.org|adirondack\..*|kintera\.org|adp\.com|addons\.cdn\.mozilla\.net|adk46er\.org|adobe\.com|ad(fontesmedia|guard|muncher|week)\.com|ad(away|blockplus|tidy)\.org|lego\.com|dell\.com|mozdev\.org|mozilla\.org|fidelity\.com|tirerack\.com|titantv\.com|lala\.com|sprintpcs\.com|sprint\.com|nextel\.com|verizon\.com|vupload\.facebook\.com|mididb\.com|sony\.tv|market\.android\.com|weeklyad\.staples\.com|google\.com|googleadservices\.com|gmail\.com|gstatic\.com|thetvdb\.com|wikimedia\.org|css\.slickdealscdn\.com|newegg\.com|androiddrawer\.com|wsj\.com|massdrop\.com|cloudfront\.net|ad.*\.rackcdn\.com|bankofamerica\.com\|office\.com|smarttiles\.click|solaredge\.com|smartthings\.com)$/i;
 // http://adc8aa2d5893f5ce5bf9-b0fbfd775b6f5cda8694c34759b81cf5.r65.cf2.rackcdn.com/39060.png
 
 
@@ -1063,6 +1063,8 @@ function FindProxyForURL(url, host)
 	|| _dnsDomainIs(host, "flashmediaportal.com")
 	|| _dnsDomainIs(host, "clictrackr.com")
 	|| _dnsDomainIs(host, "revivestar.com")
+	|| _dnsDomainIs(host, "crrepo.com")
+	|| _dnsDomainIs(host, "cdnativ.com")
 
 	// clickability, via CNN
 	|| _dnsDomainIs(host, "clickability.com")
@@ -1424,12 +1426,14 @@ function FindProxyForURL(url, host)
 
 	//////
 	//
-	// "sponsored" and "trending" content
+	// "sponsored" and "trending" and "from the web"
 	//
 	|| _dnsDomainIs(host, "taboola.com")
 	|| _dnsDomainIs(host, "taboolasyndication.com")
-	|| _dnsDomainIs(host, "disqus.com")
 	|| _dnsDomainIs(host, "revcontent.com")
+// discussion forums?
+//	|| _dnsDomainIs(host, "disqus.com")
+	|| _dnsDomainIs(host, "zergnet.com")
 
 	//////
 	//
